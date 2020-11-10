@@ -1,0 +1,79 @@
+{
+	"info": {
+		"_postman_id": "330dbdff-9b38-4743-bf56-918b9754c09d",
+		"name": "ayoConverter",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Length Miles to Kilometer Conversion",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/converter/length/MILE_TO_KILOMETER/42",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"converter",
+						"length",
+						"MILE_TO_KILOMETER",
+						"42"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Weight - Pounds to Kilograms Conversion",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/converter/weight/POUND_TO_KILOGRAM/250",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"converter",
+						"weight",
+						"POUND_TO_KILOGRAM",
+						"250"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Temperature - Celsius to Kelvin Conversion",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/converter/temperature/CELSIUS_TO_KELVIN/32",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"converter",
+						"temperature",
+						"CELSIUS_TO_KELVIN",
+						"32"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
