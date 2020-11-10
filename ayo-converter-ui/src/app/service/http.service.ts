@@ -11,11 +11,12 @@ export class HttpService {
   constructor(private http: HttpClient) {
   }
 
-  sendGetRequest(path: string): Observable<any> {
-
+  sendGetRequest(endPoint: string): Observable<any> {
+    const url = this.getApiUrl() + endPoint;
+    return this.http.get(url) as Observable<any>;
   }
 
-  private getApiUrl() {
+  private getApiUrl(): string {
     return environment.apiUrl;
   }
 }
