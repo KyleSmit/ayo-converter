@@ -1,0 +1,5 @@
+com/kylesmit/ayoconverterserver/service/ConverterServiceTest.class
+com/kylesmit/ayoconverterserver/units/WeightTest.class
+com/kylesmit/ayoconverterserver/units/LengthTest.class
+com/kylesmit/ayoconverterserver/AyoConverterWebApplicationTests.class
+com/kylesmit/ayoconverterserver/units/TemperatureTest.class
