@@ -17,7 +17,7 @@
   </properties>
 
   <modules>
-    <module>ayo-converter-web</module>
+    <module>ayo-converter-server</module>
   </modules>
 
   <dependencies>
